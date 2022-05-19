@@ -17,7 +17,7 @@ body {
 
 /* start REGOLE NAVIGAZIONE*/
 .container .navbar{
-    display: static;
+    display: block;
     position: relative;
     background-color: #ed002d;
     height: 85px;
