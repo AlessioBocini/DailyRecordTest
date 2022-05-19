@@ -16,11 +16,12 @@ body {
 /* end REGOLE GENERALI*/
 
 /* start REGOLE NAVIGAZIONE*/
-.navbar{
-    display: block;
+.container .navbar{
+    display: static;
     position: relative;
     background-color: #ed002d;
     height: 85px;
+    
 }
 
 .container{
@@ -28,6 +29,7 @@ body {
     margin: 0 0;
     position:relative;
     min-height: 100px;
+    z-index: 30;
 }
 
 #menu-primary{
@@ -78,12 +80,16 @@ body {
     display: block;
     position: fixed;
     top:0;
+    z-index: -1;
+    
 }
 .container-movement .navbar{
     display: none;
     background-color: white;
     position: relative;
-    /*z-index: 1;*/
+    /*display: inline-flex;*/
+   
+    
 }
 
 #menu-primary-movement{
